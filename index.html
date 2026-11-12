@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#08080d">
+  <title>Liquid Glass OTP Input</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <div class="top-pills">
+      <span class="pill project">PROJECT 07 <i>•</i> HTML · CSS · JS</span>
+      <span class="pill stack">✦ Type: html · verify</span>
+    </div>
+
+    <h1>Liquid Glass <span>OTP Input</span></h1>
+
+    <section class="preview" aria-label="OTP verification demo">
+      <div class="browser-bar">
+        <div class="traffic"><i></i><i></i><i></i></div>
+        <span class="address">✦ &nbsp; localhost / otp-liquid-glass</span>
+        <span class="browser-menu">•••</span>
+      </div>
+
+      <div class="otp-stage" id="otpStage">
+        <div class="ambient ambient-one"></div>
+        <div class="ambient ambient-two"></div>
+        <form id="otpForm" class="otp-form" autocomplete="off">
+          <div class="otp-fields" role="group" aria-label="Enter six digit one-time password">
+            <input class="otp-digit" aria-label="Digit 1" inputmode="numeric" maxlength="1" autocomplete="one-time-code" autofocus>
+            <input class="otp-digit" aria-label="Digit 2" inputmode="numeric" maxlength="1">
+            <input class="otp-digit" aria-label="Digit 3" inputmode="numeric" maxlength="1">
+            <input class="otp-digit" aria-label="Digit 4" inputmode="numeric" maxlength="1">
+            <input class="otp-digit" aria-label="Digit 5" inputmode="numeric" maxlength="1">
+            <input class="otp-digit" aria-label="Digit 6" inputmode="numeric" maxlength="1">
+          </div>
+          <div class="otp-underline"></div>
+          <p class="otp-message" id="otpMessage" aria-live="polite"></p>
+        </form>
+
+        <div class="success-state" id="successState" hidden>
+          <div class="success-ring"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="m13 24 7 7 15-16"/></svg></div>
+          <span>Verified</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="code-panel" aria-label="Source code preview">
+      <div class="editor-head">
+        <div class="traffic"><i></i><i></i><i></i></div>
+        <span>index.html&nbsp; <b>×</b></span>
+        <span class="editor-menu">•••</span>
+      </div>
+      <div class="editor-body">
+        <div class="line-numbers">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11</div>
+        <pre><code><em>&lt;div</em> class=<strong>"otp-container"</strong><em>&gt;</em>
+  <em>&lt;div</em> class=<strong>"otp-inputs"</strong><em>&gt;</em>
+    <em>&lt;input</em> type=<strong>"text"</strong> maxlength=<strong>"1"</strong><em>&gt;</em>
+    <em>&lt;input</em> type=<strong>"text"</strong> maxlength=<strong>"1"</strong><em>&gt;</em>
+    <em>&lt;input</em> type=<strong>"text"</strong> maxlength=<strong>"1"</strong><em>&gt;</em>
+    <em>&lt;input</em> type=<strong>"text"</strong> maxlength=<strong>"1"</strong><em>&gt;</em>
+    <em>&lt;input</em> type=<strong>"text"</strong> maxlength=<strong>"1"</strong><em>&gt;</em>
+    <em>&lt;input</em> type=<strong>"text"</strong> maxlength=<strong>"1"</strong><em>&gt;</em>
+  <em>&lt;/div&gt;</em>
+<em>&lt;/div&gt;</em></code></pre>
+      </div>
+    </section>
+
+    <div class="code-caption">✦ Comment "OTP" for the full source code</div>
+    <footer class="creator">
+      <div class="creator-avatar">CS</div>
+      <div><b>@coding.stella</b><small>animated codes, easy learning</small></div>
+      <div class="social"><span>♡<small>Like</small></span><span>▣<small>Save</small></span><span>➤<small>Share</small></span></div>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
